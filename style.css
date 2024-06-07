@@ -21,7 +21,8 @@ header{
     padding: 20px 5px;
     display: flex;
     justify-content:center;
-    gap: 50px;
+    gap: 3vh;
+    flex-wrap: wrap;
 }
 #taskTitle{
     border: 1px solid #1e1339;
@@ -38,7 +39,7 @@ header{
     resize: none;
 }
 .taskCard{
-    width: 300px;
+    min-width: 10%;
     height: auto;
     padding-left: 20px;
     padding-bottom: 10px;
@@ -50,7 +51,7 @@ header{
 }
 .taskSpace{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 25px;
 }
 #addTaskButton{
